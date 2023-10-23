@@ -21,6 +21,7 @@
 		B40D28562AE6A3BA009B7315 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D28552AE6A3BA009B7315 /* ModelData.swift */; };
 		B40D285B2AE6A59F009B7315 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D285A2AE6A59F009B7315 /* LandmarkRow.swift */; };
 		B40D285D2AE6A9D8009B7315 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D285C2AE6A9D8009B7315 /* LandmarkList.swift */; };
+		B40D285F2AE6ABEA009B7315 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D285E2AE6ABEA009B7315 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B40D28552AE6A3BA009B7315 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		B40D285A2AE6A59F009B7315 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		B40D285C2AE6A9D8009B7315 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		B40D285E2AE6ABEA009B7315 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				B40D284D2AE56FC0009B7315 /* MapView.swift */,
 				B40D285A2AE6A59F009B7315 /* LandmarkRow.swift */,
 				B40D285C2AE6A9D8009B7315 /* LandmarkList.swift */,
+				B40D285E2AE6ABEA009B7315 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				B40D284E2AE56FC0009B7315 /* MapView.swift in Sources */,
 				B40D28202AE5652E009B7315 /* LandmarksApp.swift in Sources */,
 				B40D285D2AE6A9D8009B7315 /* LandmarkList.swift in Sources */,
+				B40D285F2AE6ABEA009B7315 /* LandmarkDetail.swift in Sources */,
 				B40D284A2AE56DD5009B7315 /* CircleImage.swift in Sources */,
 				B40D28542AE6A189009B7315 /* Landmark.swift in Sources */,
 				B40D285B2AE6A59F009B7315 /* LandmarkRow.swift in Sources */,
