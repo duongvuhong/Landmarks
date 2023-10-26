@@ -160,14 +160,10 @@
 		B40D28572AE6A499009B7315 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B44D19002AEA92A900415921 /* Badges */,
 				B4951AC12AE6C4EE0018ACE0 /* Helper */,
 				B4951AC22AE6C5090018ACE0 /* Landmarks */,
 				B40D28212AE5652E009B7315 /* ContentView.swift */,
-				B44D18F62AE7F6D300415921 /* HexagonParameters.swift */,
-				B44D18F82AE7F87500415921 /* BadgeBackground.swift */,
-				B44D18FA2AE7FE9C00415921 /* BadgeSymbol.swift */,
-				B44D18FC2AE7FF5900415921 /* RotatedBadgeSymbol.swift */,
-				B44D18FE2AEA917600415921 /* Badge.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +183,18 @@
 				B40D284F2AE6A107009B7315 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B44D19002AEA92A900415921 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				B44D18F62AE7F6D300415921 /* HexagonParameters.swift */,
+				B44D18F82AE7F87500415921 /* BadgeBackground.swift */,
+				B44D18FA2AE7FE9C00415921 /* BadgeSymbol.swift */,
+				B44D18FC2AE7FF5900415921 /* RotatedBadgeSymbol.swift */,
+				B44D18FE2AEA917600415921 /* Badge.swift */,
+			);
+			path = Badges;
 			sourceTree = "<group>";
 		};
 		B4951AC12AE6C4EE0018ACE0 /* Helper */ = {
