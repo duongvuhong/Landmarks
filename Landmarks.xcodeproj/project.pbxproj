@@ -399,9 +399,9 @@
 			isa = PBXGroup;
 			children = (
 				B4A942AB2AECE759004B0657 /* ContentView.swift */,
+				B4A942FA2AECEF31004B0657 /* LandmarkDetail.swift */,
 				B4A942AD2AECE75B004B0657 /* Assets.xcassets */,
 				B4A942AF2AECE75B004B0657 /* Preview Content */,
-				B4A942FA2AECEF31004B0657 /* LandmarkDetail.swift */,
 			);
 			path = "WatchLandmarks Watch App";
 			sourceTree = "<group>";
