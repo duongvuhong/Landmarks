@@ -420,6 +420,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B47F995B2C7093F800339D24 /* PBXTargetDependency */,
 				B4A942C92AECE75B004B0657 /* PBXTargetDependency */,
 			);
 			name = Landmarks;
@@ -438,6 +439,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B47F995D2C70940100339D24 /* PBXTargetDependency */,
 			);
 			name = "WatchLandmarks Watch App";
 			productName = "WatchLandmarks Watch App";
@@ -455,6 +457,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B47F995F2C70940700339D24 /* PBXTargetDependency */,
 			);
 			name = MacLandmarks;
 			productName = MacLandmarks;
@@ -469,7 +472,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					B40D281B2AE5652E009B7315 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -491,6 +494,9 @@
 				Base,
 			);
 			mainGroup = B40D28132AE5652E009B7315;
+			packageReferences = (
+				B47F99592C7093E600339D24 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			productRefGroup = B40D281D2AE5652E009B7315 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -632,6 +638,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B47F995B2C7093F800339D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = B47F995A2C7093F800339D24 /* SwiftLintBuildToolPlugin */;
+		};
+		B47F995D2C70940100339D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = B47F995C2C70940100339D24 /* SwiftLintBuildToolPlugin */;
+		};
+		B47F995F2C70940700339D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = B47F995E2C70940700339D24 /* SwiftLintBuildToolPlugin */;
+		};
 		B4A942C92AECE75B004B0657 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B4A942A62AECE759004B0657 /* WatchLandmarks Watch App */;
@@ -762,7 +780,6 @@
 		B40D28412AE56530009B7315 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -792,7 +809,6 @@
 		B40D28422AE56530009B7315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -981,6 +997,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B47F99592C7093E600339D24 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.56.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B47F995A2C7093F800339D24 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B47F99592C7093E600339D24 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		B47F995C2C70940100339D24 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B47F99592C7093E600339D24 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		B47F995E2C70940700339D24 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B47F99592C7093E600339D24 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B40D28142AE5652E009B7315 /* Project object */;
 }
