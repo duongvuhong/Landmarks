@@ -42,8 +42,8 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
 
         func pageViewController(
             _ pageViewController: UIPageViewController,
-            viewControllerBefore viewController: UIViewController) -> UIViewController?
-        {
+            viewControllerBefore viewController: UIViewController
+        ) -> UIViewController? {
             guard let index = controllers.firstIndex(of: viewController) else {
                 return nil
             }
@@ -55,8 +55,8 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
 
         func pageViewController(
             _ pageViewController: UIPageViewController,
-            viewControllerAfter viewController: UIViewController) -> UIViewController?
-        {
+            viewControllerAfter viewController: UIViewController
+        ) -> UIViewController? {
             guard let index = controllers.firstIndex(of: viewController) else {
                 return nil
             }
@@ -70,7 +70,8 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
             _ pageViewController: UIPageViewController,
             didFinishAnimating finished: Bool,
             previousViewControllers: [UIViewController],
-            transitionCompleted completed: Bool) {
+            transitionCompleted completed: Bool
+        ) {
                 if completed,
                    let visibleViewController = pageViewController.viewControllers?.first,
                    let index = controllers.firstIndex(of: visibleViewController) {

@@ -25,7 +25,6 @@ struct LandmarkDetail: View {
                     .font(.headline)
                     .lineLimit(0)
 
-
                 Toggle(isOn: $modelData.landmarks[landmarkIndex].isFavorite) {
                     Text("Favorite")
                 }
