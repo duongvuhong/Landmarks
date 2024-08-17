@@ -43,7 +43,7 @@ struct LandmarkDetail: View {
                 Divider()
 
                 Text("About \(landmark.name)")
-                    .font(.title2)
+                    .modifier(StandardTitle())
                 Text(landmark.description)
             }
             .padding()
